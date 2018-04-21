@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+}
+
+.appwrap {
+    display: flex;
+    justify-content: center;
+    height:100vh;
+}
+
+#table {
+    flex: 1;
+    margin: 15px;
+    border: 3px solid brown;
+    background-image: linear-gradient(0deg, #058210 0%, #3CB546 100%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hand {
+    border: 1px solid rgba(255, 255, 255, .8);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, .4);
+    height: 20vh;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+label {
+    margin-left: 10px;
+    color: white;
+}
+
+.buttons {
+    margin: 0 auto;
+}
+
+img {
+    height: 90%;
+    margin: 5px;
+}
